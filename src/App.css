@@ -1,38 +1,342 @@
-.App {
-  text-align: center;
+.flex-row{
+  display:flex;
+  flex-direction: row;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (max-width: 700px) {
+  .laptop{
+    display:none;
+  }
+  .navbar{
+    padding:0.5rem 0;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background:linear-gradient(180deg, rgba(30, 30, 30, 1) 90%,rgba(30, 30, 30, 0)40%);
+    
+  }
+  .github-image{
+    width:40px;
+    margin:0.2rem;
+    height: auto;
+  }
+  .navbar-list{
+    flex-grow:1;
+    justify-content: end;
+    align-items: center;
+  }
+  .navbar__item{
+    padding: 0 1rem; 
+    color: #FFF;
+    font-family: Kaisei HarunoUmi;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 129.523%; /* 1.94281rem */
+    text-transform: uppercase;
+  }
+  .navbar__item a{
+    text-decoration: none;
+    color: #FFF;
+  }
+  .navbar__item:hover{
+    color: #56FF06;
+  }
+  .navbar__item a:hover{
+    color: #56FF06;
+  }
+  .home .left-half{
+    padding-top:4rem;
+    padding-left: 1.5rem;padding-right: 0.5rem;
+  }
+  .education,.interest{
+    padding-left: 1.5rem;padding-right: 0.5rem;
+  }
+  .home .hello{
+    color: black;
+    font-family: Inter;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0.1rem;
+    margin-top:0.2rem;
+  }
+  .home .name{
+    color: black;
+    font-family: Kaisei HarunoUmi;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding:0.1rem 0;
+    position: relative;
+  }
+  .home .body{
+    padding-left:2rem;
+    padding-top:0.3rem;
+    padding-bottom: 1rem;
+    color: #9C9898;
+    font-family: Inter;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .home .ellipse{
+    position: absolute;
+    bottom: 10px;
+    left:5.5rem;
+    width: 25%;
+    height: 25%;
+  }
+  .education .flex-row{
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  .education .type{
+    color: black;
+    padding:0.5rem 0.3rem;
+    margin:0.1rem 0;
+    border-left: rgba(86, 255, 6, 1) 4px solid;
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .education .name{
+    color: black;
+  font-family: Inter;
+  margin-left: 3rem;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  }
+  .education .time{
+    color: rgb(50, 50, 50);
+    font-family: Inter;
+    font-size: 1.1rem;
+    margin-left:3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .interest .block{
+    padding-left:1rem;
+  }
+  .interest .interest-header{
+    color: #56FF06;
+    font-family: Kaisei HarunoUmi;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 129.523%; /* 3.23806rem */
+    text-transform: uppercase;
+    padding:0rem 0;
+  }
+  .interest .interest-body{
+    color: black;
+    font-family: Kaisei HarunoUmi;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 129.523%; /* 2.83331rem */
+    padding-left:1rem;
+  }
+  .heading{
+    color: black;
+    font-family: Kaisei HarunoUmi;
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: 600;
+    padding:0.5rem 0;
+    line-height: 129.523%; /* 5.18094rem */
+    text-transform: uppercase;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (min-width:700px){
+  .mobile{
+    display:none;
   }
-  to {
-    transform: rotate(360deg);
+  .navbar{
+    padding:0.5rem 0;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background:linear-gradient(180deg, rgba(30, 30, 30, 1) 90%,rgba(30, 30, 30, 0)40%);
+    
+  }
+  .github-image{
+    width:40px;
+    margin:0.2rem;
+    height: auto;
+  }
+  .navbar-list{
+    flex-grow:1;
+    justify-content: end;
+    align-items: center;
+  }
+  .navbar__item{
+    padding: 0 1rem; 
+    color: #FFF;
+    font-family: Kaisei HarunoUmi;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 129.523%; /* 1.94281rem */
+    text-transform: uppercase;
+  }
+  .navbar__item a{
+    text-decoration: none;
+    color: #FFF;
+  }
+  .navbar__item:hover{
+    color: #56FF06;
+  }
+  .navbar__item a:hover{
+    color: #56FF06;
+  }
+  .home{
+    background-color: rgba(30, 30, 30, 1);
+    padding:8rem 4rem 0 4rem ;
+  }
+  .home .left-half{
+    padding-top:2rem;
+    flex-basis: 50%;
+  }
+  .home .right-half{
+    flex-basis: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .home .hello{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0.5rem;
+  }
+  .home .name{
+    color: #FFF;
+    font-family: Kaisei HarunoUmi;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding:0.2rem 0;
+    position: relative;
+  }
+  .home .body{
+    padding-left:2rem;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+    color: #9C9898;
+    font-family: Inter;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .home .scroll{
+    margin-top: 2rem ;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 129.523%; /* 1.94281rem */
+  }
+  .home .skull{
+    width:70%;height:auto;
+  }
+  .home .ellipse{
+    position: absolute;
+    bottom: 10px;
+    left:10rem;
+    width: 25%;
+    height: 25%;
+  }
+  .home hr{
+    width:100px;
+    margin:0;
+    padding: 0;
+    border-bottom:none;
+    border-top:rgba(86, 255, 6, 1) 2px solid;
+  }
+  .education,.interest{
+    background-color:rgba(30, 30, 30, 1);
+    padding-left:4rem;
+    padding-bottom: 3rem;
+    padding-top:1rem;
+  }
+  .education .flex-row{
+    justify-content: space-evenly;
+  }
+  .heading{
+    color: #FFF;
+    font-family: Kaisei HarunoUmi;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    padding:1.5rem 0;
+    line-height: 129.523%; /* 5.18094rem */
+    text-transform: uppercase;
+  }
+  .education .type{
+    color: #FFF;
+    padding:0.5rem 0.3rem;
+    margin:0.5rem 0;
+    border-left: rgba(86, 255, 6, 1) 4px solid;
+    font-family: Inter;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .education .name{
+    color: #FFF;
+  font-family: Inter;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  }
+  .education .time{
+    color: #B7B7B7;
+    font-family: Inter;
+    font-size: 1.1rem;
+    margin-left:1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .interest .block{
+    padding-left:2rem;
+  }
+  .interest .interest-header{
+    color: #56FF06;
+    font-family: Kaisei HarunoUmi;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 129.523%; /* 3.23806rem */
+    text-transform: uppercase;
+    padding:0.5rem 0;
+  }
+  .interest .interest-body{
+    color: #FFF;
+    font-family: Kaisei HarunoUmi;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 129.523%; /* 2.83331rem */
+    padding-left:2rem;
   }
 }

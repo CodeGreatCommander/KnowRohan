@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/KnowRohan/static/css/main.e9154e4b.css",
+    "main.js": "/KnowRohan/static/js/main.7fccfc5d.js",
+    "static/js/787.6568e1bc.chunk.js": "/KnowRohan/static/js/787.6568e1bc.chunk.js",
+    "static/media/resume.pdf": "/KnowRohan/static/media/resume.c696c3ba6cb368e05429.pdf",
+    "static/media/skull.svg": "/KnowRohan/static/media/skull.ebcf55cbe5a28d2afd2753a82abfb4af.svg",
+    "static/media/github.png": "/KnowRohan/static/media/github.987334e9f782cc505f25.png",
+    "static/media/logo.svg": "/KnowRohan/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/KnowRohan/index.html",
+    "static/media/Ellipse.svg": "/KnowRohan/static/media/Ellipse.5023a6eb1df81b0a9c4a138777581b2c.svg",
+    "main.e9154e4b.css.map": "/KnowRohan/static/css/main.e9154e4b.css.map",
+    "main.7fccfc5d.js.map": "/KnowRohan/static/js/main.7fccfc5d.js.map",
+    "787.6568e1bc.chunk.js.map": "/KnowRohan/static/js/787.6568e1bc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9154e4b.css",
+    "static/js/main.7fccfc5d.js"
+  ]
+}

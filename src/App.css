@@ -166,7 +166,7 @@
     position: fixed;
     top: 0;
     width: 100vw;
-    background:linear-gradient(180deg, rgba(30, 30, 30, 1) 90%,rgba(30, 30, 30, 0)40%);
+    background:linear-gradient(180deg, rgba(30, 30, 30, 1) 80%,rgba(30, 30, 30, 0.6));
     
   }
   .github-image{
@@ -269,7 +269,7 @@
     border-bottom:none;
     border-top:rgba(86, 255, 6, 1) 2px solid;
   }
-  .education,.interest{
+  .education,.interest,.projects{
     background-color:rgba(30, 30, 30, 1);
     padding-left:4rem;
     padding-bottom: 3rem;
@@ -318,12 +318,12 @@
     line-height: normal;
   }
   .interest .block{
-    padding-left:2rem;
+    padding-left:4rem;
   }
   .interest .interest-header{
     color: #56FF06;
     font-family: Kaisei HarunoUmi;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-style: normal;
     font-weight: 700;
     line-height: 129.523%; /* 3.23806rem */
@@ -333,10 +333,14 @@
   .interest .interest-body{
     color: #FFF;
     font-family: Kaisei HarunoUmi;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 129.523%; /* 2.83331rem */
-    padding-left:2rem;
+    line-height: 160%; /* 2.83331rem */
+    padding-left:4rem;
+  }
+  .projects .body{
+    padding-left: 4rem;
+    color: white;
   }
 }

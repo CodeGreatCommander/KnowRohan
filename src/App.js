@@ -5,15 +5,17 @@ import Home from './components/home';
 import Education from './components/education';
 import Interest from './components/interest';
 import { useRef } from 'react';
+import Projects from './components/projects';
 
 function App() {
-  const ho=useRef(null),inte=useRef(null);
+  const ho=useRef(null),inte=useRef(null),pro=useRef(null);
   return (
     <div className="">
-      <Navbar ho={ho} inte={inte}/>
+      <Navbar ho={ho} inte={inte} pro={pro}/>
       <Home refer={ho}/>
       <Education />
       <Interest refer={inte}/>
+      <Projects refe={pro}/>
     </div>
   );
 }

@@ -49,7 +49,7 @@
     padding-top:4rem;
     padding-left: 1.5rem;padding-right: 0.5rem;
   }
-  .education,.interest{
+  .education,.interest,.projects{
     padding-left: 1.5rem;padding-right: 0.5rem;
   }
   .home .hello{
@@ -144,6 +144,29 @@
     font-weight: 400;
     line-height: 129.523%; /* 2.83331rem */
     padding-left:1rem;
+  }
+  .projects .body{
+    padding-left:1rem;
+  }
+  .projects .project-header{
+    color: #56FF06;
+    font-family: Kaisei HarunoUmi;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 129.523%; /* 3.23806rem */
+    text-transform: uppercase;
+    padding:0rem 0;
+  }
+  .projects .project-body{
+    color: black;
+    font-family: Kaisei HarunoUmi;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110.523%; /* 2.83331rem */
+    padding-left:1rem;
+    padding-right:0.2rem;
   }
   .heading{
     color: black;
@@ -340,7 +363,26 @@
     padding-left:4rem;
   }
   .projects .body{
-    padding-left: 4rem;
-    color: white;
+    padding-left:4rem;
+  }
+  .projects .project-header{
+    color: #56FF06;
+    font-family: Kaisei HarunoUmi;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 129.523%; /* 3.23806rem */
+    text-transform: uppercase;
+    padding:0.5rem 0;
+  }
+  .projects .project-body{
+    color: #FFF;
+    font-family: Kaisei HarunoUmi;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 2.83331rem */
+    padding-left:4rem;
+    padding-right: 2rem;
   }
 }
